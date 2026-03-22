@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- ✅ Your CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="bg-container">
+        <h1 class="head ">Timer Converter</h1>
+        <div class="cont">
+            <p class="para">Enter hours and minutes values to convert into seconds</p>
+        </div>
+        <div class="container1">
+            <label for="hoursInput" class="label">Hours*</label>
+            <div>
+                <input type=text id="hoursInput" />
+            </div>
+        </div>
+        <div class="container1">
+            <label for="minutesInput" class="labek">Minutes*</label>
+            <div>
+                <input type=text id="minutesInput" />
+            </div>
+        </div>
+        <div class="but">
+            <button class="but1" id="convertBtn">Convert to Seconds</button>
+        </div>
+        <div class="container1">
+            <h1 class="pa" id="errorMsg"></h1>
+        </div>
+        <div class="container1">
+            <h1 class="seconds" id="timeInSeconds"></h1>
+        </div>
+    </div> 
+    <script src="script.js"></script> 
+</body>
+
+</html>
